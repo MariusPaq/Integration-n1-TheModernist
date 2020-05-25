@@ -15,10 +15,10 @@
         <a href="index.php" class="logo">The Modernist</a>
         <div class="header-right">
           <a href="index.php">HOME</a>
-          <a href="style.php">STYLE DEMO</a>
-          <a href="full.php">FULL WIDTH</a>
-          <a href="Portfolio.php">PORTFOLIO</a>
-          <a href="gallery.php">GALLERY</a>
+          <a href="liens.php">STYLE DEMO</a>
+          <a href="liens.php">FULL WIDTH</a>
+          <a href="liens.php">PORTFOLIO</a>
+          <a href="liens.php">GALLERY</a>
         </div><!--FIN header-right-->
       </div><!--FIN topheader-->
 
@@ -76,7 +76,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-          
+
         </div><!--FIN belowheader-->
 
       </div> <!--FIN header-->
