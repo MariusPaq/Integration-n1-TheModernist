@@ -8,95 +8,66 @@
   </head>
   <body>
 
-    <div class="barreverte">
-
-    </div>
-
+    <div class="barreverte"></div><!--Barre Verte en haut de page-->
     <div class="header">
 
-      <div class="topheader">
-
+      <div class="topheader"><!--Logo + liens-->
         <a href="index.php" class="logo">The Modernist</a>
-
         <div class="header-right">
           <a href="index.php">HOME</a>
           <a href="style.php">STYLE DEMO</a>
           <a href="full.php">FULL WIDTH</a>
           <a href="Portfolio.php">PORTFOLIO</a>
           <a href="gallery.php">GALLERY</a>
+        </div><!--FIN header-right-->
+      </div><!--FIN topheader-->
 
-        </div>
-
-      </div>
-
-      <div class="belowheader">
-
-
-
-        <!--Carousel, 3 pages-->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="belowheader"><!--div contenant le carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"><!--carousel de 3 pages-->
           <div class="carousel-inner">
 
-            <!-- Carousel page 1 -->
-            <div class="carousel-item active">
-
-              <div class="incarousel">
-
-                <div class="leftincarousel">
+            <div class="carousel-item active"><!--page 1 carousel-->
+              <div class="incarousel"><!--Contenue du carousel(h1,p,a,img)-->
+                <div class="leftincarousel"><!--contenue gauche carousel(h1,p,a)-->
                   <h1>The one</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros. Integer dictum laoreet ex at consequat. Sed tincidunt consectetur odio ut congue.</p>
                   <a href="#" class="readmorecar">Read More Here</a>
-                </div>
-
-                <div class="rightincarousel">
+                </div><!--FIN leftincarousel-->
+                <div class="rightincarousel"><!--contenue droit carousel(img)-->
                   <img src="img/1.jpg" class="d-block w-100" alt=".">
-                </div>
+                </div><!--FIN rightincarousel-->
+              </div><!--FIN incarousel-->
+            </div><!--FIN carousel-item active (page 1)-->
 
-              </div>
-
-
-            </div>
-
-            <!-- Carousel page 2 -->
-            <div class="carousel-item">
-
+            <div class="carousel-item"><!--page 2 carousel-->
               <div class="incarousel">
-
                 <div class="leftincarousel">
                   <h1>C'est bon les fruits</h1>
                   <p>Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros. Integer dictum laoreet ex at consequat. Sed tincidunt consectetur odio ut congue. Proin quis purus id diam sodales efficitur. Etiam aliquam suscipit semper.</p>
                   <a href="#">Read More Here</a>
-                </div>
-
+                </div><!--FIN leftincarousel-->
                 <div class="rightincarousel">
                   <img src="img/fruit.jpg" class="d-block w-100" alt=".">
-                </div>
+                </div><!--FIN rightincarousel-->
+              </div><!--FIN incarousel-->
+            </div><!--FIN carousel-item (page 2)-->
 
-              </div>
-
-            </div>
-
-            <!-- Carousel page 3 -->
-            <div class="carousel-item">
-
+            <div class="carousel-item"><!-- Carousel page 3 -->
               <div class="incarousel">
-
                 <div class="leftincarousel">
                   <h1>Une troisieme page</h1>
                   <p>Pellentesque non mollis nulla. Quisque sit amet vehicula eros. Integer dictum laoreet ex at consequat. Sed tincidunt consectetur odio ut congue. Proin quis purus id diam sodales efficitur. Etiam aliquam suscipit semper. Mauris molestie interdum est, ac pharetra ex tincidunt commodo.</p>
                   <a href="#">Read More Here</a>
-                </div>
-
+                </div><!--FIN leftincarousel-->
                 <div class="rightincarousel">
                   <img src="img/3.jpg" class="d-block w-100" alt=".">
-                </div>
-
-              </div>
-
-            </div>
+                </div><!--FIN rightincarousel-->
+              </div><!--FIN incarousel-->
+            </div><!--FIN carousel-item (page 3)-->
 
             </div>
           </div>
+          <!--Pages Suiv. & Prec.-->
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -105,13 +76,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+          
+        </div><!--FIN belowheader-->
 
-      </div>
-
-
-
-
-    </div>
-
-  </div>
+      </div> <!--FIN header-->
