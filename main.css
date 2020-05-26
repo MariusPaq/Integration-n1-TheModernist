@@ -1,87 +1,28 @@
 /* Header - topheader(logo,liens); belowheader(carousel)*/
-.barreverte {
-  background-color: rgba(144,238,144);
-  width: 100%;
-  height: 10px;
-}
+#barreverte { background-color: rgba(144,238,144); width: 100%; height: 10px;}
 
-.header {
-  overflow: hidden;
-  padding: 3px 10px;
-  background-color: rgba(18, 18, 18, 0.75);
-}
+body { background-image: url("img/back.jpg"); background-size: 100% 100%; }
 
-body {
-  background-image: url("img/back.jpg");
-  background-size: 100% 100%;
-}
+#header { overflow: hidden; padding: 3px 10px; background-color: rgba(18, 18, 18, 0.75); }
 
-.header h1,.header p {
-  color: white;
-}
+#topheader { position: relative; width: 100%; margin-top: 0.5%; }
 
-.topheader {
-  display: block;
-  position: relative;
-  float: left;
-  width: 100%;
-  margin-top: 10px;
-}
+.header-right { float: right; margin-right: 1%; }
 
-.header-right {
-  float: right;
-  margin-right: 20px;
-}
+#belowheader { position: relative; }
 
-.topheader a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
+#header h1,#header p,#header a { color: white; }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 50px;
-}
+#topheader a { padding: 12px; text-decoration: none; font-size: 18px; line-height: 25px; border-radius: 4px; margin-top: 2px;}
 
-.topheader a:hover {
-  background-color: rgba(144,238,144);
-  color: black;
-  text-decoration: none;
-}
+#topheader a:hover { background-color: rgba(144,238,144); color: black; text-decoration: none; }
 
-.belowheader {
-  position: relative;
-  float: left;
-  width: 100%;
-}
+#header a.logo { font-size: 25px; font-weight: bold; margin-left: 50px; }
 
-.carouselExampleControls {
-  margin-bottom: 5%;
-}
+/*Carousel*/
+.leftincarousel{ float: left; width: 40%; margin-left: 15%; margin-top: 4%; }
 
-.leftincarousel{
-  position: relative;
-  float: left;
-  width: 30%;
-  margin-left: 20%;
-  margin-top: 4%;
-}
-
-.rightincarousel {
-  position: relative;
-  float: right;
-  margin-right: 20%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  color: black;
-}
+.rightincarousel { float: right; margin-right: 20%; margin-top: 2%; margin-bottom: 2%; }
 
 .rightincarousel img{
   width : 350px;
@@ -103,10 +44,7 @@ body {
   background-color: rgba(144,238,144);
 }
 
-.leftincarousel a:hover {
-  text-decoration: none;
-  color: black;
-}
+.leftincarousel a:hover { text-decoration: none; color: black; }
 /*FIN - header*/
 
 
@@ -115,207 +53,68 @@ body {
 
 
 /*index*/
-.latestwork {
-  position: relative;
-  float: left;
-  width: 100%;
-  background-color: rgba(82, 82, 82, 0.5);
-}
+#inlatestwork { margin-left: 8%; margin-right: 8%; }
 
-.inlatestwork {
-  position: relative;
-  float: left;
-  margin-left: 8%;
-  margin-right: 8%;
-}
+#barrework { background-color: rgba(20, 20, 20, 1); height: 4px; }
 
-.toplatestwork {
-  position: relative;
-  float: left;
-  width: 100%;
-}
+.belowlatestwork { display: flex; margin-top: 2%; }
 
-.belowlatestwork {
-  position: relative;
-  float: left;
-  width: 100%;
-}
+#flexcard { display: flex; }
 
-.card h3 , .card p , .card a{
-  text-align: center;
-  color: black;
-  text-decoration: none;
-  font-size: 1.1vw;
-}
+#flexcard :hover { background-color: rgba(144,238,144); }
 
-.card p {
-  /*font-size: 1.1vw;*/
-}
+.card { width: 20%; margin-left: 4%; margin-right: 4%; margin-top: 2%; margin-bottom: 2%; }
 
-.card img {
-  height: 120px;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-}
+#card1 { margin-left: 0px; }
 
-.barrework {
+#card4 { margin-right: 0px; }
 
-  background-color: rgba(20, 20, 20, 1);
-  height: 4px;
-  position: relative;
-  float: left;
-  width: 100%;
-}
+.acard { position: absolute; display: block; width: 100%; height: 100%; }
 
-.barrework h3 {
-  text-align: center;
-}
+.card h3 , .card p , .card a{ text-align: center; color: black; text-decoration: none; font-size: 1.1vw; }
 
-  /* media max-width > 800px;*/
-  .flexcard {
-    display: flex;
-  }
-
-  .card {
-    width: 20%;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .flexcard :hover {
-    background-color: rgba(144,238,144);
-  }
-
-  .acard {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  #card1 {
-    margin-left: 0px;
-  }
-
-  #card4 {
-    margin-right: 0px;
-  }
-
-  @media (max-width: 800px) {
-    .flexcard {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .card {
-      width: 100%;
-      margin-left: 0px;
-    }
-
-    .card p, .card h3 {
-      font-size: medium;
-    }
-  }
-
-
-/*media max-width > 800px*/
-.belowlatestwork{
-  position: relative;
-  float: left;
-  width: 100%;
-  display: flex;
-  margin-top: 4%;
-}
-
-.belowlatestwork2 {
-  position: relative;
-  float: left;
-  width: 100%;
-  display: flex;
-  margin-top: 2%;
-}
+.card img { height: 120px; width: 120px; margin-left: auto; margin-right: auto; margin-top: 5%; }
 
 .boxwork{
   width: 30%;
-  height: 30vh;
+  height: 20em;
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-bottom: 2%;
   border: 0.5rem solid white;
+  background-size: 100% 100%
 }
+
+#boxwork1 { background-image: url("img/lt1.jpg"); }
+#boxwork2 { background-image: url("img/lt2.jpg"); }
+#boxwork3 { background-image: url("img/lt3.jpg"); }
+#boxwork4 { background-image: url("img/lt4.jpg"); }
+#boxwork5 { background-image: url("img/lt5.jpg"); }
+#boxwork6 { background-image: url("img/lt6.jpg"); }
+
+.topbox { height: 90%; }
+
+.titrebox { width: 100%; float: left; background-color: rgba(0,0,0,0.7); height: 10%; }
+
+.titrebox h5 { color: white; text-align: center; font-size: 1rem; margin-top: 5px; }
+
 
 @media (max-width: 1000px){
-  .belowlatestwork {
-    display: flex;
-    flex-direction: column;
-    margin-top: 7%;
-  }
 
-  .belowlatestwork2 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 7%;
-  }
+  .belowlatestwork { display: flex; flex-direction: column; margin-top: 0px; }
 
-  .boxwork {
-    width: 100%;
-    margin-left: 0px;
-  }
+  .boxwork { width: 100%; margin-left: 0px; }
+
+  #boxwork1 { margin-top: 2%; }
 }
 
-#boxwork1 {
-  background-image: url("img/lt1.jpg");
-  background-size: 100% 100%;
-}
+@media (max-width: 800px) {
 
-#boxwork2 {
-  background-image: url("img/lt2.jpg");
-  background-size: 100% 100%;
-}
+  #flexcard { display: flex; flex-direction: column; }
 
-#boxwork3 {
-  background-image: url("img/lt3.jpg");
-  background-size: 100% 100%;
-}
+  .card { width: 100%; margin-left: 0px; }
 
-#boxwork4 {
-  background-image: url("img/lt4.jpg");
-  background-size: 100% 100%;
-}
-
-#boxwork5 {
-  background-image: url("img/lt5.jpg");
-  background-size: 100% 100%;
-}
-
-#boxwork6 {
-  background-image: url("img/lt6.jpg");
-  background-size: 100% 100%;
-}
-
-.topbox {
-  position: relative;
-  height: 90%;
-}
-
-.titrebox {
-  position: relative;
-  width: 100%;
-  float: left;
-  background-color: rgba(0,0,0,0.7);
-  height: 10%;
-
-}
-
-.titrebox h5 {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 1rem;
+  .card p, .card h3 { font-size: medium; }
 }
 /*FIN - index*/
 
@@ -326,59 +125,30 @@ body {
 
 
 /*footer - topfooter(flexbox); belowfooter(copyright)*/
-.footer {
-  position: relative;
-  float: left;
-  width: 100%;
-}
+#footer { float: left; background-color: rgba(36, 36, 36); }
 
-.footer a {
-  color: rgba(144,238,144);
-}
+#footer a,.footer h5 { color: rgba(144,238,144); }
 
-.footer p {
-  color: grey;
-}
+#footer p { color: grey; }
 
-.footer h4 {
-  color: white;
-}
+#footer h4 { color: white; }
 
-.footer h5 {
-  color: rgba(144,238,144);
-}
+#topfooter { display: flex; }
 
+.box { width: 25%; margin-left: 2.5%; margin-right: 2.5%; margin-top: 2%; margin-bottom: 2%; }
 
-.topfooter {
-  position: relative;
-  float: left;
-  width: 100%;
-  background-color: rgba(36, 36, 36);
-}
+#barrenoir, #belowfooter { float: left; width: 100%; }
 
-.belowfooter {
-  position: relative;
-  float: left;
-  width: 100%;
-  background-color: rgba(36, 36, 36);
-}
+#barrenoir { height: 2px; background-color: black; }
 
-.belowfooter p {
-  margin-top: 10px;
-}
+#belowfooter p { margin-top: 10px; }
 
-#copyright {
-  float: left;
-  margin-left: 20px;
-}
+#copyright { float: left; margin-left: 20px; }
 
-#copyright2 {
-  float: right;
-  margin-right: 20px;
-}
+#copyright2 { float: right; margin-right: 20px; }
 
 /*Formulaire*/
-input[type="text"] {
+input[type="text"], input[type="email"], input[type="subject"], textarea[id="msg"], button[type="submit"]  {
   width: 100%;
   border: 1px dotted #999;
   border-radius: 10px;
@@ -387,99 +157,17 @@ input[type="text"] {
   color: grey;
 }
 
-input[type="email"] {
-  width: 100%;
-  border: 1px dotted #999;
-  border-radius: 10px;
-  -webkit-appearance: none;
-  background-color: rgba(15, 15, 15, 0.5);
-  color: grey;
-}
-
-input[type="subject"] {
-  width: 100%;
-  border: 1px dotted #999;
-  border-radius: 10px;
-  -webkit-appearance: none;
-  background-color: rgba(15, 15, 15, 0.5);
-  color: grey;
-}
-
-textarea[id="msg"] {
-  width: 100%;
-  border: 1px dotted #999;
-  border-radius: 10px;
-  -webkit-appearance: none;
-  background-color: rgba(15, 15, 15, 0.5);
-  color: grey;
-}
-
-button[type="submit"] {
-  margin-top: 10%;
-  width: 40%;
-  border: 1px dotted #999;
-  border-radius: 10px;
-  -webkit-appearance: none;
-  background-color: rgba(144,238,144);
-}
-
-
-  /*media max-width > 800px;*/
-  .topfooter {
-    display: flex;
-  }
-
-  .box {
-    width: 25%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
+button[type="submit"] { margin-top: 10%; width: 40%; background-color: rgba(144,238,144); color: black; }
+/*FIN formulaire*/
 
 @media (max-width: 800px) {
 
-  .topfooter {
-    display: flex;
-    flex-direction: column;
-  }
+  #topfooter { display: flex; flex-direction: column; }
 
-  .box {
-    width: 90%;
-  }
+  .box { width: 90%; }
 
-  .pfoot {
-    text-align: justify;
-  }
+  input[type="text"], input[type="email"], input[type="subject"], textarea[id="msg"] { width: 100%; }
 
-  input[type="text"] {
-    width: 100%;
-  }
-
-  input[type="email"] {
-    width: 100%;
-  }
-
-  input[type="subject"] {
-    width: 100%;
-  }
-
-  textarea[id="msg"] {
-    width: 100%;
-  }
-
-  button[type="submit"] {
-    margin-top: 5%;
-    width: 30%;
-  }
+  button[type="submit"] { margin-top: 5%; width: 30%; }
 }
-/*FIN - formulaire*/
-
-.barrenoir {
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 2px;
-  background-color: black;
-}
+/*FIN - footer*/

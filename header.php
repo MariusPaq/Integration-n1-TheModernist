@@ -8,10 +8,10 @@
   </head>
   <body>
 
-    <div class="barreverte"></div><!--Barre Verte en haut de page-->
-    <div class="header">
+    <div id="barreverte"></div><!--Barre Verte en haut de page-->
+    <div id="header">
 
-      <div class="topheader"><!--Logo + liens-->
+      <div id="topheader"><!--Logo + liens-->
         <a href="index.php" class="logo">The Modernist</a>
         <div class="header-right">
           <a href="index.php">HOME</a>
@@ -22,7 +22,7 @@
         </div><!--FIN header-right-->
       </div><!--FIN topheader-->
 
-      <div class="belowheader"><!--div contenant le carousel-->
+      <div id="belowheader"><!--div contenant le carousel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"><!--carousel de 3 pages-->
           <div class="carousel-inner">
 

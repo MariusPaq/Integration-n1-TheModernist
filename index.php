@@ -1,9 +1,9 @@
 <?php include 'header.php' ?>
-  <div class="latestwork"><!--index content-->
-    <div class="inlatestwork">
+  <div><!--index content-->
+    <div id="inlatestwork">
 
       <div class="toplatestwork"><!--contenue du haut de l'index-->
-        <div class="flexcard"><!--card(img,h3,p)-->
+        <div id="flexcard"><!--card(img,h3,p)-->
 
             <div class="card" id="card1"><!--card1-->
               <a href="liens.php">
@@ -47,7 +47,7 @@
 
         </div><!--FIN flexcard-->
       </div><!--FIN toplatestwork-->
-      <div class="barrework">
+      <div id="barrework">
         <!--<h3>LATEST WORK</h3>-->
       </div>
       <div class="belowlatestwork"><!--1er ligne des box-->
@@ -74,7 +74,7 @@
         </div><!--FIN boxwork3-->
       </div><!--FIN belowlatestwork-->
 
-      <div class="belowlatestwork2"><!--2em ligne des box-->
+      <div class="belowlatestwork"><!--2em ligne des box-->
         <div class="boxwork" id="boxwork4">
           <div class="topbox">
           </div>

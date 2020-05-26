@@ -1,5 +1,5 @@
-    <div class="footer">
-      <div class="topfooter"><!--footer(blog,links,tweets,contact)-->
+    <div id="footer">
+      <div id="topfooter"><!--footer(blog,links,tweets,contact)-->
 
           <div class="box"><!--Blog(p)-->
             <h4 class="tiltefooter">From The Blog</h4>
@@ -21,8 +21,8 @@
 
           <div class="box"><!--tweets(p)-->
             <h4>Latest Tweets</h4>
-            <p class="pfoot">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros.</p>
-            <p class="pfoot">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros.</p>
           </div><!--FIN Box-->
 
           <div class="box"><!--Contact(Formulaire)-->
@@ -51,8 +51,8 @@
           </div><!--FIN Box-->
 
       </div><!--FIN topheader-->
-      <div class="barrenoir"></div><!--barre noire entre topfooter & belowheader-->
-      <div class="belowfooter"><!--Copyright(p)-->
+      <div id="barrenoir"></div><!--barre noire entre topfooter & belowheader-->
+      <div id="belowfooter"><!--Copyright(p)-->
         <p id="copyright">Copyright © 2020 Marius Paquet - All rights Reserved</p>
         <p id="copyright2">Intégration n-1</p>
       </div><!--FIN belowheader-->
