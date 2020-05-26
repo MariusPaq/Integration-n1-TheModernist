@@ -48,7 +48,7 @@
         </div><!--FIN flexcard-->
       </div><!--FIN toplatestwork-->
       <div class="barrework">
-        <h3>LATEST WORK</h3>
+        <!--<h3>LATEST WORK</h3>-->
       </div>
       <div class="belowlatestwork"><!--1er ligne des box-->
         <div class="boxwork" id="boxwork1">
