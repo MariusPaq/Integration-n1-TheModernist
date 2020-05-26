@@ -6,7 +6,7 @@
         <div class="flexcard"><!--card(img,h3,p)-->
 
             <div class="card" id="card1"><!--card1-->
-              <a href="#">
+              <a href="liens.php">
               <img src="img/icone1.png" class="card-img-top" alt="...">
               </a>
                 <div class="card-body">
@@ -16,7 +16,7 @@
             </div><!--FIN card-->
 
           <div class="card"><!--card2-->
-            <a href="#">
+            <a href="liens.php">
             <img src="img/icone2.png" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
@@ -26,7 +26,7 @@
           </div><!--FIN card-->
 
           <div class="card"><!--card3-->
-            <a href="#">
+            <a href="liens.php">
             <img src="img/icone3.png" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
@@ -36,7 +36,7 @@
           </div><!--FIN card-->
 
           <div class="card" id="card4"><!--card4-->
-            <a href="#">
+            <a href="liens.php">
             <img src="img/icone4.png" class="card-img-top" alt="...">
             </a>
             <div class="card-body">
