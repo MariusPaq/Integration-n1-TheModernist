@@ -1,7 +1,7 @@
     <div id="footer">
       <div id="topfooter"><!--footer(blog,links,tweets,contact)-->
 
-          <div class="box"><!--Blog(p)-->
+          <div class="box" id="box1"><!--Blog(p)-->
             <h4 class="tiltefooter">From The Blog</h4>
             <h5 id="posttitle">Post title</h5>
             <p class="pfoot">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros. Pellentesque non turpis iaculis, rhoncus mi at, laoreet enim. Integer sapien velit, viverra a tortor sed, efficitur blandit erat. Donec quis condimentum odio, feugiat tristique nulla.</p>
@@ -10,13 +10,13 @@
 
           <div class="box" id="quicklinks"><!--Links(a)-->
             <h4>Quick Links</h4>
-                <a href="#">Loren ipsum dolor sit</a>
-                <a href="#">Annet conservateur</a>
-                <a href="#">Praesent velsem id</a>
-                <a href="#">Curabitur hendreit est</a>
-                <a href="#">Aliquam eget erat nec sapein</a>
-                <a href="#">Cras id augue nunc</a>
-                <a href="#">Sed a nulla urna</a>
+                <a href="#">Loren ipsum dolor sit</a><br>
+                <a href="#">Annet conservateur</a><br>
+                <a href="#">Praesent velsem id</a><br>
+                <a href="#">Curabitur hendreit est</a><br>
+                <a href="#">Aliquam eget erat nec sapein</a><br>
+                <a href="#">Cras id augue nunc</a><br>
+                <a href="#">Sed a nulla urna</a><br>
           </div><!--FIN Box-->
 
           <div class="box"><!--tweets(p)-->
@@ -25,7 +25,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices eros. Nullam lobortis nibh diam, vitae maximus elit iaculis id. Pellentesque non mollis nulla. Quisque sit amet vehicula eros.</p>
           </div><!--FIN Box-->
 
-          <div class="box"><!--Contact(Formulaire)-->
+          <div class="box" id="box4"><!--Contact(Formulaire)-->
             <h4>Contact Us</h4>
             <form action="/ma-page-de-traitement" method="post"><!--Formulaire 4 label(name,email,subject,message)-->
               <div class="label">
