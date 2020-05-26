@@ -10,13 +10,20 @@
 
           <div class="box" id="quicklinks"><!--Links(a)-->
             <h4>Quick Links</h4>
-                <a href="#">Loren ipsum dolor sit</a><br>
-                <a href="#">Annet conservateur</a><br>
-                <a href="#">Praesent velsem id</a><br>
-                <a href="#">Curabitur hendreit est</a><br>
-                <a href="#">Aliquam eget erat nec sapein</a><br>
-                <a href="#">Cras id augue nunc</a><br>
-                <a href="#">Sed a nulla urna</a><br>
+                <a href="#">⟫ Loren ipsum dolor sit</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Annet conservateur</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Praesent velsem id</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Curabitur hendreit est</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Aliquam eget erat nec sapein</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Cras id augue nunc</a><br>
+                <div class="barrelinks"></div>
+                <a href="#">⟫ Sed a nulla urna</a><br>
+                <div class="barrelinks"></div>
           </div><!--FIN Box-->
 
           <div class="box"><!--tweets(p)-->
