@@ -8,31 +8,15 @@
             <a href="#">Read More</a>
           </div><!--FIN Box-->
 
-          <div class="box"><!--Links(a)-->
+          <div class="box" id="quicklinks"><!--Links(a)-->
             <h4>Quick Links</h4>
-            <ul class="liste">
-              <li>
                 <a href="#">Loren ipsum dolor sit</a>
-              </li>
-              <li>
                 <a href="#">Annet conservateur</a>
-              </li>
-              <li>
                 <a href="#">Praesent velsem id</a>
-              </li>
-              <li>
                 <a href="#">Curabitur hendreit est</a>
-              </li>
-              <li>
                 <a href="#">Aliquam eget erat nec sapein</a>
-              </li>
-              <li>
                 <a href="#">Cras id augue nunc</a>
-              </li>
-              <li>
                 <a href="#">Sed a nulla urna</a>
-              </li>
-            </ul>
           </div><!--FIN Box-->
 
           <div class="box"><!--tweets(p)-->
