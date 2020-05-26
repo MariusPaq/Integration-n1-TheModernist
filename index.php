@@ -11,7 +11,7 @@
               </a>
                 <div class="card-body">
                   <h3>Card Title</h3>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Some quick example text.</p>
                 </div><!--FIN card-body-->
             </div><!--FIN card-->
 
@@ -21,7 +21,7 @@
             </a>
             <div class="card-body">
               <h3>Card Title</h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text.</p>
             </div><!--FIN card-body-->
           </div><!--FIN card-->
 
@@ -31,7 +31,7 @@
             </a>
             <div class="card-body">
               <h3>Card Title</h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text.</p>
             </div><!--FIN card-body-->
           </div><!--FIN card-->
 
@@ -41,7 +41,7 @@
             </a>
             <div class="card-body">
               <h3>Card Title</h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text.</p>
             </div><!--FIN card-body-->
           </div><!--FIN card-->
 
