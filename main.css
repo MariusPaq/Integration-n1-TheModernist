@@ -108,7 +108,7 @@ body { background-image: url("img/back.jpg"); background-size: 100% 100%; }
   #boxwork1 { margin-top: 2%; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
   #flexcard { display: flex; flex-direction: column; }
 
